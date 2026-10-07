@@ -26,6 +26,7 @@ function Temperatura() {
         <div>
             <p>Farenheit: {przelicznik(-16)} </p>
             <p>Pogoda opisowo: {opiszPogode(-15)} </p>
+            <p>Pogoda przy 20 stopnich: {przelicznik(20)} celsjuesz 20 opis pogody: {opiszPogode(20)}</p>
         </div>
     );
 }
